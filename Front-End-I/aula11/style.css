@@ -1,0 +1,54 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: box-border;
+}
+body {
+  height: 300vh;
+}
+
+.box-first,
+.box-second,
+.box-three {
+  position: relative;
+  height: 200px;
+  width: 200px;
+  background-color: #26001B;
+}
+
+.box-intern {
+  position: absolute;
+  top: 25%;
+  left: 25%;
+  height: 50%;
+  width: 50%;
+  background-color: red;
+}
+
+p {
+  position: relative;
+  top: 45%;
+  margin: auto 0;
+  color: #e1e1e1;
+  font-family: 'Arial';
+  text-align: center;
+  word-wrap: wrap;
+}
+
+.box-first {
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+.box-second {
+  position: fixed;
+  right:25%;
+  bottom: 0;
+}
+
+.box-three {
+  position: absolute;
+  top: 0;
+  right: 0;
+}

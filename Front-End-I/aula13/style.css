@@ -1,0 +1,99 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #F3F3F3;
+}
+
+.container{
+    padding: 60px 60px;
+}
+
+header {
+    background-color: bisque;
+    width: 100%;
+    padding: 20px 60px;
+    position: fixed;
+    top: 0;
+    z-index: 9999;
+}
+.header-logo, .header-menu, .header-carrinho, .header-menu .header-list li{
+    display: inline;
+}
+.header-logo a img {
+    height: 2em;
+}
+
+.header-menu .header-list {
+    padding: 1% 0;
+    margin:0px;
+    list-style-type:none;
+    float: right;
+}
+
+.header-menu .header-list li a {
+    padding: 0 10px;
+    font-family: 'Roboto', sans-serif;
+    color: #333;
+    text-decoration: none;
+}
+
+.header-carrinho {
+    padding: 5% 0;
+}
+
+.header-carrinho a img {
+    height: 1.5em;
+    
+    margin-left: 30px;
+    float: right;
+}
+/*
+Section
+*/
+
+.section-shirt{
+    display: inline-flex;
+    flex-wrap: wrap;
+}
+
+.section-shirt .shirt {
+    margin: 15px;
+    width: 250px;
+    box-shadow: 0 0 1em rgba(0, 0, 0, 0.2);
+    border-radius: 1em 1em 1em 1em;
+    transform: scale(0.95);
+    transition: all ease 250ms;
+}
+
+.section-shirt .shirt:hover {
+    transform: scale(1.05);
+    z-index: 999;
+}
+.section-shirt .shirt a {
+    text-decoration: none;
+    color:rgba(0, 0, 0, 0.8);
+}
+.section-shirt .shirt a img {
+    width: 100%;
+    flex-direction: row;
+    border-radius: 1em 1em 0 0;
+    
+}
+.section-shirt .shirt .shirt-description, .section-shirt .shirt .shirt-title, .shirt-button {
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 0 20px;
+    text-align: justify;
+    word-break: normal
+}
+
+.shirt-button {
+position:absolute;
+bottom: 0;
+right: 0;
+}

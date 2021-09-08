@@ -1,0 +1,22 @@
+.box{
+    bottom: 0;
+    height:250px;
+    width:250px;
+    height: 250px;
+    background-color: purple;
+}
+
+.box > .menor {
+    po
+    width:150px;
+    height:150px;
+    margin: auto;
+    background-color: rgb(226, 175, 201);
+    
+    
+
+}
+.menor > p {
+    text-align: center;
+    margin:auto;
+}
